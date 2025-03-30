@@ -1,0 +1,78 @@
+@font-face {
+  font-family: 'IranYekan';
+  src: url('/fonts/iranyekanwebregular.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'IranYekan';
+  src: url('/fonts/iranyekanwebbold.woff2') format('woff2');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary-color: #e83a52;
+  --text-primary: #232933;
+  --text-secondary: #5a5c61;
+  --bg-color: #fbfbfb;
+  --input-bg: #f0f0f1;
+  --border-color: #e0e0e6;
+}
+
+body {
+  font-family: 'IranYekan', system-ui, sans-serif;
+  direction: rtl;
+  background-color: var(--bg-color);
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+#root {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Additional utility classes */
+.text-h4 {
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 1.5;
+}
+
+.text-body-2 {
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.text-body-3 {
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+.text-caption {
+  font-size: 10px;
+  line-height: 1.5;
+}
+
+.text-button-1 {
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 1.5;
+}
+
+.text-subtitle {
+  font-size: 14px;
+  line-height: 1.5;
+}
