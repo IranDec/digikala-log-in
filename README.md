@@ -52,5 +52,6 @@ The project is deployed at [Netlify](https://same-t7mpktg6r8p-latest.netlify.app
 - Fonts: IranYekan
 
 ## License
-
+-Mohammad Babaei
+-design by [AdsChi](https://www.adschi.com/)
 This project is for educational purposes only.
