@@ -1,4 +1,4 @@
-# Digikala Login Page Clone
+# Digikala Login Page
 
 This project is a pixel-perfect clone of the Digikala login page. Digikala is one of the largest e-commerce platforms in Iran.
 
